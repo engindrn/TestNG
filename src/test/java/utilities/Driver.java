@@ -13,8 +13,8 @@ import java.time.Duration;
 public class Driver {
 
     private Driver() {  //bu klassdan obje oluşturulup kullanılmasını engellmek için singletor patten yaptık yani
-    }                   //parametresiz private bir contracter oluşturup burdakini (görünmeyen) öldürdük
-
+    }                   //parametresiz private bir contracter oluşturup burdakini (görünmeyen) iptal ettik
+                        //artık başks classdan obje oluşturarak ulaşılamaz sadece Driver.getDriver() methodu ile ulaşılır
 
     static WebDriver driver;
 
@@ -31,6 +31,8 @@ public class Driver {
         if (driver == null) {
             switch (ConfigReader.getProperty("browser")){    //hangi browserda çalıştıracaksak properties claasında
                                                           //bulunan browser key ine value olr case i ekleriz.
+                                                 //ConfigReader bize configuration.properties file indan key i
+                                                //browser olan value yu getir dedik.
                 case "edge":
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver();

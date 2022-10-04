@@ -7,6 +7,11 @@
                     <include name="bestbuyTest"/>
                 </methods>
             </class>
+            <class name="tests.day16.C02_BeforeClassAfterClass">
+                <methods>
+                    <exclude name="testAmazon"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

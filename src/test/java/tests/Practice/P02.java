@@ -61,7 +61,7 @@ public class P02 extends TestBaseBeforeMethodAfterMethod {
         /*2.yol
         driver.findElement(By.xpath("//*[@id='continents']")).sendKeys("Antartika");*/
 
-       // 3.yol
+       // yazdırdık
         List<WebElement> ddmlist= select.getOptions();
         for (WebElement w:ddmlist) {
             System.out.println(w.getText());

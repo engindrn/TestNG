@@ -5,10 +5,20 @@
             <package name="tests.day18"/>
         </packages>
     </test>
-
     <test name="başka Test">
         <classes>
             <class name="tests.day17.C05_AmazonPageClass"/>
         </classes>
     </test>
+
+    <test name="method">
+        <classes>
+            <class name="tests.day16.C03_Priority">
+                <methods>
+                    <include name="bestbuyTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
 </suite>

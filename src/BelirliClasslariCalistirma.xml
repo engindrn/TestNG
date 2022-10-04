@@ -7,7 +7,7 @@
      XML dosyamizi olustururken ilk once <!DOCTYPE komutu ile baslamamiz gerekiyor
      bunu testNG sayfasindan da alabiliriz
      sonrasinda suite tag'i ile baslayip hangi testi calistiracaksak ona gore .xml formatini yazmamiz ve
-      kaydetmemiz gerekir (ctrl+s)gerekir
+      kaydetmemiz gerekir (ctrl+s)gerekir *** hangi packagede ise on
 -->
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="istenen class'ları calistirma">

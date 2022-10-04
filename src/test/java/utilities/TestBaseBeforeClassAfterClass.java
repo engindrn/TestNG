@@ -15,7 +15,7 @@ public abstract class TestBaseBeforeClassAfterClass {
     protected static WebDriver driver;
     protected static String tarih;
 
-    @BeforeClass
+    @BeforeClass (groups = "grp1")
     public static void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -27,7 +27,7 @@ public abstract class TestBaseBeforeClassAfterClass {
         tarih = date.format(formater);
 
     }
-    @AfterClass
+    @AfterClass (groups = "grp1")
     public static void tearDown() {
        // driver.quit();
     }

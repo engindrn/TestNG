@@ -8,7 +8,8 @@ import java.util.Properties;
 public class ConfigReader {
 
     public static Properties properties;
-      static {  //statik blok her method dan önce çalışır
+
+      static {                                                   //statik blok her method dan önce çalışır
           String dosyaYolu="configuration.properties";
           try {
               FileInputStream fis= new FileInputStream(dosyaYolu);
@@ -21,13 +22,12 @@ public class ConfigReader {
       }
 
     public static String getProperty (String key){
-    /*
-    Test methodundan yolladigimiz String key degerini alip properties classindan
-    getProperty() methodunu kullanarak bu key'e ait value'yu bize getirir
-    */
+
 
         return properties.getProperty(key);
     }
-
-
 }
+ /*
+    Test methodundan yolladigimiz String key degerini alip properties classindan
+    getProperty() methodunu kullanarak bu key'e ait value'yu bize getirir
+    */

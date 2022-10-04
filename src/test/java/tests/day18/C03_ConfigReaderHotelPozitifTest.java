@@ -7,7 +7,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C03_ConfigReaderHotelPozitifTest {
-    @Test
+    @Test (groups = "grp2")
     public void test01() {
      //  Bir Class olustur : PositiveTest
      //  2) Bir test method olustur positiveLoginTest()
