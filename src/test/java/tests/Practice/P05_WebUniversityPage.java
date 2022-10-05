@@ -65,6 +65,8 @@ public class P05_WebUniversityPage {
             w.click();
         }
 
+       /* webUniversityPage.todoswWebElement.forEach(WebElement::click);*/
+
      //Tüm yapılacakları sil.
         List<WebElement> deleteButtons= webUniversityPage.deleteButtonsWebEelement;
 
@@ -76,10 +78,10 @@ public class P05_WebUniversityPage {
 
         Thread.sleep(3000);
         //Tüm yapılacakların silindiğini doğrulayın.  //li tagı olmaması aslında listenin boş old gösterir
-       List <WebElement> newtodos= webUniversityPage.todoswWebElement;   //listin size ina bakacağız liste
-        Assert.assertTrue(newtodos.size()==0);
 
-        //Assert.assertEquals(0,newtodos.size());
+        Assert.assertTrue(webUniversityPage.todoswWebElement.size()==0);
+
+        //Assert.assertEquals(webUniversityPage.todoswWebElement, 0);
 
     }
 
