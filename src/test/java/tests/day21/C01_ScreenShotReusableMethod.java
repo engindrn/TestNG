@@ -37,8 +37,8 @@ public class C01_ScreenShotReusableMethod {
         amazonPage.searchBox.sendKeys("Nutella", Keys.ENTER);
 
         //arama sonuç yazısının ekran görüntüsünü alınız
-        ReusableMethods.getScreenshotWebElement("aramaSonucWE",amazonPage.aramaSonucWE);
-
+       // ReusableMethods.getScreenshotWebElement("aramaSonucWE",amazonPage.aramaSonucWE);
+        ReusableMethods.getScreenshotWebElement("webelement",amazonPage.aramaSonucWE);
 
     }
 }

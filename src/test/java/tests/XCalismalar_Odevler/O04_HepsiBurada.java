@@ -2,7 +2,7 @@ package tests.XCalismalar_Odevler;
 
 import org.testng.annotations.Test;
 
-public class O04_day21 {
+public class O04_HepsiBurada {
     @Test
     public void test01() {
         //Hepsiburada sayfasına gidiniz
