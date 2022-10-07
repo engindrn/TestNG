@@ -19,7 +19,7 @@ public class CrossDriver {
 
     public static WebDriver getDriver(String browser) {
         //Eğer browser'a bir değer atanmamışsa configration.properties dosyasın'daki browser çalışsın
-        browser = browser == null ? ConfigReader.getProperty("browser") : browser;
+        browser = browser == null ? ConfigReader.getProperty("browser") : browser; //grantör değer gelmezse
 
         //Testlerimizi xml file'dan farklı browserlar ile çalıştırabilmek için getDriver() methoduna parametre
         //atamamız gerekir.

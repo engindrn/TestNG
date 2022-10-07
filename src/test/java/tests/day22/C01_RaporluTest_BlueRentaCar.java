@@ -1,6 +1,5 @@
 package tests.day22;
 
-import org.checkerframework.checker.units.qual.K;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -10,7 +9,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.TestBaseRapor;
 
-public class C01_RaporluTest extends TestBaseRapor {        //utilities deki testbaserapor clasını parent yaptık
+public class C01_RaporluTest_BlueRentaCar extends TestBaseRapor {        //utilities deki testbaserapor clasını parent yaptık
                                                             //rapor alabilmek için
 
     BlueRentaCarPage blueRentaCarPage=new BlueRentaCarPage();
