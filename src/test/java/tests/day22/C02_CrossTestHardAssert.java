@@ -35,7 +35,9 @@ public class C02_CrossTestHardAssert extends TestBaseCross {
 
 
 
-
-
     }
 }
+/* testlerimizi farklı browserlar ile test etme imkani verir ister aynı test ister farklı test seçtiğimiz
+browserlarda çalıştırabiliriz. bunu sıralı yada paralel yani ayni andada yapabiliriz.
+
+ */

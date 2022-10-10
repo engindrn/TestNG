@@ -12,7 +12,7 @@ import utilities.TestBaseBeforeMethodAfterMethod;
 
 import java.util.List;
 
-public class P01_ActionsFaker extends TestBaseBeforeMethodAfterMethod {
+public class P01_emoji_ActionsFaker extends TestBaseBeforeMethodAfterMethod {
     // go to the URL
     // https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
     // ikinci emojiye tıklayın (hayvan emojisini seçin)

@@ -1,17 +1,13 @@
 package tests.Practice;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HerOkuTiklama;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
-import java.util.List;
-
-public class P06_HerOkuTiklama {
+public class P06_HerOkuTiklamapPage {
 
      HerOkuTiklama herOkuTiklama;
     Actions actions = new Actions(Driver.getDriver());

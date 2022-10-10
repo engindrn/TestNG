@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class P01 extends TestBaseBeforeMethodAfterMethod {
+public class P01_emoji extends TestBaseBeforeMethodAfterMethod {
 
     @Test
     public void test1() {
