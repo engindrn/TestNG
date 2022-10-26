@@ -17,8 +17,8 @@ public class C02_SmokeNagatifTestHotel {
         // 1.Senoryo: yanlış kullanıcı, doğru şifre
         // https://www.hotelmycamp.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("hotelUrl"));
-        HotelMyCampPage hmcPage = new HotelMyCampPage();
-
+        HotelMyCampPage hmcPage = new HotelMyCampPage();                //her method için page den
+                                                            //yeni bir obje oluşturuduk
         //login butonuna bas
         hmcPage.singin.click();
 

@@ -45,6 +45,7 @@ public class C01_RaporluTest_BlueRentaCar extends TestBaseRapor {        //utili
             Assert.assertEquals(expectedUserName,actualUserName);
 
         extentTest.pass("sayfaya başarılı girdi");
+      //  extentTest.fail("geçmedi")  bug varsa assert olr pass alcaz ama burda fail old girecez
 
     }
 }

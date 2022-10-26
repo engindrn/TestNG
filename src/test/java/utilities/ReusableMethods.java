@@ -135,6 +135,7 @@ public class ReusableMethods {
     }
     static Faker faker;
     static Actions actions;
+
     static SoftAssert softAssert;
     static Select select;
 
