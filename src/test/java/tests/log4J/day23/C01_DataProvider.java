@@ -1,4 +1,4 @@
-package tests.day23;
+package tests.log4J.day23;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
